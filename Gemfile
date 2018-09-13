@@ -1,7 +1,10 @@
-# frozen_string_literal: true
-source "https://rubygems.org"
-
-gem "sinatra-activerecord"
-gem "sqlite3"
-gem "pry"
+#source "https://rubygems.org"
+gem 'pry'
+gem "rspec"
 gem "require_all"
+gem "sinatra-activerecord"
+gem "activerecord"
+gem "sqlite3"
+gem "rest-client"
+gem "rake"
+gem "database_cleaner"
